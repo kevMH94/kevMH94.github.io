@@ -1,0 +1,69 @@
+@media(min-width:768px){
+
+    .container1 {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+    }
+
+}
+body{
+    font-family: Helvetica;
+    background-color: #dedcdc;
+    text-align: center;
+    color: #175223;
+}
+
+ul{
+
+    display: inline-block; 
+	text-align: left;
+}
+
+.heading{
+
+    text-shadow: 4px 4px 1px #8cb9a8;
+}
+
+#skills ul{
+
+    list-style-type: square;
+
+}
+
+
+
+.container1 div{
+
+    border: 1px #9c9583 solid;
+    padding: 10px;
+    
+}
+
+#skills{
+ 
+    order:2;   
+    
+}
+
+#socialMedia{
+    
+    order: 1; 
+
+}
+
+#references{
+ 
+    order:3;
+    
+}
+
+#skills, #socialMedia, #references{
+
+    flex-basis: 30%;
+}
+
+
