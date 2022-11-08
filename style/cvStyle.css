@@ -43,27 +43,19 @@ ul{
     
 }
 
-#skills{
- 
-    order:2;   
-    
+.row{
+
+    justify-content: space-between;
+    margin-top: 50px;
+    min-height: 100px;
 }
 
-#socialMedia{
-    
-    order: 1; 
+.col{
+    margin-top: 20px;
+
 
 }
 
-#references{
- 
-    order:3;
-    
-}
 
-#skills, #socialMedia, #references{
-
-    flex-basis: 30%;
-}
 
 
