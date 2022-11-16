@@ -1,0 +1,25 @@
+body{
+
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+button{
+
+    background-color: rgb(62, 179, 65);
+    border-radius: 50%;
+    color: white;
+    padding: 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#rock, #paper, #scissors{
+    margin:auto;
+    margin-top: 10px;
+
+}
+
