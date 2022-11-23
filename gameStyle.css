@@ -17,9 +17,14 @@ button{
     cursor: pointer;
 }
 
-#rock, #paper, #scissors{
+#rock, #paper, #scissors,#playAgainButton{
     margin:auto;
     margin-top: 10px;
 
+}
+
+#finalOutcome{
+
+    color: green;
 }
 
