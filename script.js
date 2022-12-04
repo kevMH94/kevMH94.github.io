@@ -53,7 +53,7 @@ function startGame(value){
     else if (userChoice==0 && computerChoice==1){
 
         document.getElementById("outcome").innerHTML="You chose " + userOutcome + " and the computer chose paper.";
-        document.getElementById("result").innerHTML="Paper beats rock. You loose!";
+        document.getElementById("result").innerHTML="Paper beats rock. You lose!";
         computerScore++;
 
     
@@ -75,14 +75,14 @@ function startGame(value){
     else if (userChoice==1 && computerChoice==2){
 
         document.getElementById("outcome").innerHTML="You chose " + userOutcome + " and the computer chose scissors.";
-        document.getElementById("result").innerHTML="Scissors beats paper. You loose!";
+        document.getElementById("result").innerHTML="Scissors beats paper. You lose!";
         computerScore++;
     
     }
     else if (userChoice==2 && computerChoice==0){
 
         document.getElementById("outcome").innerHTML="You chose " + userOutcome + " and the computer chose rock.";
-        document.getElementById("result").innerHTML="Rock beats scissors. You loose!";
+        document.getElementById("result").innerHTML="Rock beats scissors. You lose!";
         computerScore++;
     
     }
