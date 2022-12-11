@@ -275,9 +275,18 @@ form input, form textarea, form button{
 .carousel-caption h2{
     color: white;
 }
+
 .carousel-control-next, .carousel-control-prev  {
     color:black;
-}  
+} 
+.carousel-control-next-icon:hover, .carousel-control-prev-icon:hover{
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 0 3px 3px 0;
+    padding:25px;
+
+    /* Reference - https://www.w3schools.com/howto/howto_js_slideshow.asp*/
+} 
+
 .menu-intro{
     text-align: center;
 }
