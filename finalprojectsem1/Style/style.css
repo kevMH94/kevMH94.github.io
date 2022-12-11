@@ -85,19 +85,19 @@ a{
     width:100%;
 }
 /*-Carousel inside of placeholders on Home page*/
-#carouselPlaceholder{
+.carouselPlaceholder{
     display: flex;
     background-color:#ededdf;
     margin-right:0px;
     margin-left:0px;
 }
-#carouselExampleSlidesOnly{
+.carouselExampleSlidesOnly{
     width:180%;
     justify-content: space-around;
     padding-left:15px;
 }
 /*https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
-#carouselExampleSlidesOnly .carousel-item img{
+.carouselExampleSlidesOnly .carousel-item img{
     height:40vh;
     object-fit: cover;
     object-position: center;
