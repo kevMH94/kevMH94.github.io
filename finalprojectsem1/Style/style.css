@@ -241,8 +241,8 @@ form input, form textarea, form button{
 }
 
 .carousel-menu-page{
-    height: 500px;
-    width:770px;
+    height: 55%;
+    width:53%;
     margin: auto;
 }
 @media(max-width: 770px){
