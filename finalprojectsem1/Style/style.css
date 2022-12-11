@@ -204,8 +204,7 @@ a{
 	padding:50px;
 }
 form h1{
-	color: white;
-	font-weight:800px;
+    color: white;
 	margin-bottom:20px;
 }
 form input, form textarea, form button{
@@ -220,8 +219,7 @@ form input, form textarea, form button{
 #btn{
 	background: linear-gradient(to top, #000000ff, #ededdf);
 	width: 80%;
-	font: white; 
-	font: white; 
+	color: white; 
 }
 .background-about{
 	background-color: #ededdf;
@@ -241,11 +239,26 @@ form input, form textarea, form button{
     font-weight: 500;
     font-size: 60px;
 }
+@media(max-width: 770px){
+    .carousel-menu-page{
+        height: 100%;
+        width:100%;
+        margin: auto;
+    }
+    .carousel-menu-page img{
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    /* Reference - https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
+    }
+
+}
 .carousel-menu-page{
     height: 500px;
     width:770px;
     margin: auto;
 }
+
 .carousel{
     background-color: #ededdf;
 }
