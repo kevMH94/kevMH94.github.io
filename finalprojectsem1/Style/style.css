@@ -239,6 +239,12 @@ form input, form textarea, form button{
     font-weight: 500;
     font-size: 60px;
 }
+
+.carousel-menu-page{
+    height: 500px;
+    width:770px;
+    margin: auto;
+}
 @media(max-width: 770px){
     .carousel-menu-page{
         height: 100%;
@@ -252,11 +258,6 @@ form input, form textarea, form button{
     /* Reference - https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/*/
     }
 
-}
-.carousel-menu-page{
-    height: 500px;
-    width:770px;
-    margin: auto;
 }
 
 .carousel{
