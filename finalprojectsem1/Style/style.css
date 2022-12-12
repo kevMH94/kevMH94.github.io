@@ -108,7 +108,7 @@ a{
 .pictures{
     display:flex;
     justify-content: space-around;
-    margin-top:15px;
+    margin-top:50px;
     height:40vh;
     object-fit: cover;
     object-position: center;
