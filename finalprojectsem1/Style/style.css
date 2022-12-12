@@ -122,9 +122,19 @@ a{
     color:black;
     padding: 15px;
 }
-.p-link{
-    color:black;
-    text-decoration: underline;
+.pathing{
+    background-color:#ededdf;
+    color:#7aa784;
+    border: 1px solid #7aa784;
+    border-radius: 8px;
+    width: 25%;
+}
+.pathing:hover{
+    background-color:#7aa784;
+    color:#ededdf;
+    border: 1px solid #7aa784;
+    border-radius: 8px;
+    width: 25%;
 }
 .location{
     display: flex;
@@ -161,35 +171,21 @@ a{
 	text-align: center;
 	padding: 100px;
 }
-.logo-container{
-    text-align: center;
-}
-.about{
-	justify-content: space-around;
-	text-align: center;
-	animation: fadeIn 3s;
-}
-@keyframes fadeIn{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-}
+
 .icon{
-	justify-content:space-around;
-	margin-left: 30px;
-	margin-right: 30px;
+	justify-content: none;
 	text-align: center;
+	padding-top:20px;
 }
 .icon-img{
-	width:100px;
-	height:100px;
+	display: flex;
+	float: left;
+	width:50px;
+	height:50px;
+	margin-left:5%;
+	margin-bottom:5%;
 }
-.overlay{
-	background-color: #ededdf;
-}
+
 .form-container{
 	width:100%;
 	max-width:450px;
@@ -204,7 +200,8 @@ a{
 	padding:50px;
 }
 form h1{
-    color: white;
+	color: white;
+	font-weight:800px;
 	margin-bottom:20px;
 }
 form input, form textarea, form button{
@@ -217,38 +214,60 @@ form input, form textarea, form button{
 	width:100%;
 }
 #btn{
-	background: linear-gradient(to top, #000000ff, #ededdf);
-	width: 80%;
-	color: white; 
+	background: black;
+	width: 80%; 
+	color:white;
+	font-family: Lato;
+	
+}
+.about-pictures{
+    display:flex;
+    justify-content: space-around;
+    margin-top:5%;
+    height:40vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
 }
 .background-about{
 	background-color: #ededdf;
-	padding: 50px;
+		
 }
+
 .row{
-    justify-content: space-between;
+	justify-content: space-around;
     margin-top: 50px;
-    min-height: 100px;
 }
-
-
-
+h4{
+	font-family: Lato;
+	font-weight: bold;
+}
+.about{
+	display: flex;
+    background-color:#ededdf;
+    justify-content: space-around;
+    height: 400px;
+}
+.aboutPic{
+	padding-top:7.5%;
+}
+@media(max-width 767px){
+	.row{
+		height: 1000px;
+		justify-content:space-between;
+	}
+	.background-about{
+		margin:0%;
+	}
+	.about-pictures{
+		margin:0%;
+	}
+}
 
 /*Coded by Kevin*/
 #titleCol h1{
     font-weight: 500;
     font-size: 60px;
-}
-
-.shopLogo{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-.teaShopLogo{
-
-    width:9%;
-    height:9%;
 }
 
 .carousel-menu-page{
