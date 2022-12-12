@@ -240,6 +240,17 @@ form input, form textarea, form button{
     font-size: 60px;
 }
 
+.shopLogo{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.teaShopLogo{
+
+    width:9%;
+    height:9%;
+}
+
 .carousel-menu-page{
     height: 55%;
     width:53%;
