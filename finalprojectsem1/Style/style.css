@@ -316,6 +316,7 @@ h4{
     margin: auto;
     border-style: ridge;
     padding-top: 15px;
+    /*https://www.w3schools.com/css/tryit.asp?filename=trycss_border-style*/
 }
 .menuTitle h1{
     min-width: 35px;
