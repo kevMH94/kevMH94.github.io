@@ -172,6 +172,11 @@ a{
 	padding: 100px;
 }
 
+.location-about iframe{
+
+    width:100%;
+}
+
 .icon{
     text-align: center;
 	padding-top:20px;
