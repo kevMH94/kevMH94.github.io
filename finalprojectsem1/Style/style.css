@@ -68,7 +68,7 @@ a{
 .background{
     display: flex;
     background-color:#ededdf;
-    justify-content:baseline;
+    
     padding-top: 100px;
     height: 700px;
 }
@@ -173,7 +173,6 @@ a{
 }
 
 .icon{
-	justify-content: none;
 	text-align: center;
 	padding-top:20px;
 }
@@ -201,7 +200,7 @@ a{
 }
 form h1{
 	color: white;
-	font-weight:800px;
+	font-weight:600;
 	margin-bottom:20px;
 }
 form input, form textarea, form button{
@@ -251,7 +250,7 @@ h4{
 .aboutPic{
 	padding-top:7.5%;
 }
-@media(max-width 767px){
+@media(max-width:767px){
 	.row{
 		height: 1000px;
 		justify-content:space-between;
