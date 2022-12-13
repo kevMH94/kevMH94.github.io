@@ -68,7 +68,7 @@ a{
 .background{
     display: flex;
     background-color:#ededdf;
-    
+
     padding-top: 100px;
     height: 700px;
 }
@@ -173,7 +173,7 @@ a{
 }
 
 .icon{
-	text-align: center;
+    text-align: center;
 	padding-top:20px;
 }
 .icon-img{
