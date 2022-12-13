@@ -53,13 +53,12 @@
 			</div>
 		<!--Contact Form-->
 		<div class="form-container">
-			<form>
+			<form name="myForm" action="/" method="post" onsubmit="return validateForm()">
 				<h1>Get in Touch</h1>
-				<input type="text" id="name" placeholder="Your Name" required>
-				<input type="email" id="email" placeholder="Your Email" required>
-				<textarea id="message" rows="6" placeholder="Enter Text Here"></textarea>
-				
-				<button id="btn" type="submit">Send</button>
+				<input type="text" name="name" id="name" placeholder="Your Name" required>
+				<input type="email" name="email" id="email" placeholder="Your Email" required>
+				<textarea id="message" name="message" rows="6" placeholder="Enter Text Here"></textarea>			
+				<input id="btn" type="submit" value="Submit">
 
 			</form> <!--Reference https://www.w3schools.com/html/html_forms.asp-->
 		</div>
