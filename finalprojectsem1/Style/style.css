@@ -250,18 +250,7 @@ h4{
 .aboutPic{
 	padding-top:7.5%;
 }
-@media(max-width:767px){
-	.row{
-		height: 1000px;
-		justify-content:space-between;
-	}
-	.background-about{
-		margin:0%;
-	}
-	.about-pictures{
-		margin:0%;
-	}
-}
+
 
 /*Coded by Kevin*/
 #titleCol h1{

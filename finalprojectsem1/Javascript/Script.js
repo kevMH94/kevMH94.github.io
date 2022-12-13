@@ -30,17 +30,19 @@ function hideDescription(id){
 
 }
 // Code by David
-function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "dav.walsh10@gmail.com",
-        Password : "nemanjiavidic",
-        To : 'dav.walsh10@gmail.com',
-        From : document.getElementById("email").value,
-        Subject : "New Contact Form Submission",
-        Body : "And this is the body"
-    }).then(
-      message => alert(message)
-    );
+function validateForm() {
+	var name=document.myForm.name.value;
+	var email=document.myForm.email.value;
+	var message=document.myForm.message.value;
+	
+	if(name==""){
+		alert("Please Enter Name");
+		return false;
+	}
+	else if(email==""){
+		alert("Please Enter Email");
+		return false;
+	}
+	
 }
 
