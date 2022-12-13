@@ -284,6 +284,7 @@ h4{
 #offer {
     filter:blur(20px);
     filter: brightness(120%);
+    /* Reference https://www.w3schools.com/cssref/css3_pr_filter.php*/
 }
 .carousel-caption{
     font-weight: bold;
