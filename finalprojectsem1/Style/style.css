@@ -215,16 +215,34 @@ form input, form textarea, form button{
 	outline:none;
 	background: white;
 	font-size: 16px;
-	width:100%;
+    width:100%;
+    border-radius:15px;
 }
 #btn{
-	background: black;
+	background: white;
 	width: 80%; 
-	color:white;
+	color:black;
 	font-family: Lato;
-	
+	border-radius:10px;
 }
+#btn:hover{
+	background-color:black;
+	color: white;
+}
+input:invalid{
+	border: solid red 2px;
+} /*Reference https://blog.logrocket.com/when-how-to-choose-html-form-validation/#html5-form-validation-features*/
+
 .about-pictures{
+    display:flex;
+    justify-content: space-around;
+    margin-top:10%;
+    height:40vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+.mission-pic{
     display:flex;
     justify-content: space-around;
     margin-top:5%;
@@ -250,10 +268,27 @@ h4{
 	display: flex;
     background-color:#ededdf;
     justify-content: space-around;
-    height: 400px;
+    height: 500px;
 }
-.aboutPic{
-	padding-top:7.5%;
+.mission-about{
+    display: flex;
+    background-color:#ededdf;
+    justify-content: space-around;
+    height: 400px;
+	padding-bottom:15%;
+}
+@media(max-width:768px){
+    .about{
+        height: 1000px;
+		justify-content: space-evenly;
+    }
+	.mission-about{
+		height: 550px;
+		padding-top:10%;
+	}
+	.about-pictures{
+		margin:0%;
+	}
 }
 
 
